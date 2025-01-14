@@ -1,8 +1,8 @@
 // import Test from "./components/Test";
 
 // import FetchData from "./components/FetchData";
-import Search from "./components/Search";
-
+// import Search from "./components/Search";
+import FormikForm from "./components/Formik";
 // import TestRenew from "./components/TestRenew";
 
 function App() {
@@ -13,9 +13,12 @@ function App() {
       </h1>
       {/* <Test/> */}
       {/* <TestRenew /> */}
-{/* 
+      {/* 
       <FetchData /> */}
-      <Search />
+
+      {/* Formik */}
+      <FormikForm/>
+      {/* <Search /> */}
     </div>
   );
 }

@@ -30,6 +30,7 @@ const Search = () => {
         <div>
             <div className='p-5'>
                 <input
+                    type='text'
                     placeholder='Search'
                     className='border p-2 rounded-md'
                     value={search}
