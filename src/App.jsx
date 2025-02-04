@@ -1,26 +1,24 @@
-// import Test from "./components/Test";
 
-// import FetchData from "./components/FetchData";
-// import Search from "./components/Search";
-import FormikForm from "./components/Formik";
-// import TestRenew from "./components/TestRenew";
 
-function App() {
+import FileExplorer from './compo/FileExplorer/FileExplorer'
+import './utils.js/styles.css'
+
+const App = () => {
   return (
-    <div className="flex flex-col items-center h-screen mt-10">
-      <h1 className="text-3xl font-bold">
-        Test
-      </h1>
-      {/* <Test/> */}
-      {/* <TestRenew /> */}
-      {/* 
-      <FetchData /> */}
+    <div>
+      <h1 className="p-4 bg-gray-800 text-white text-2xl font-bold ">File Explorer</h1>
 
-      {/* Formik */}
-      <FormikForm/>
-      {/* <Search /> */}
+      <div className="bg-gray-200 p-4" >
+        <FileExplorer />
+      </div>
     </div>
-  );
+
+
+
+
+
+  )
 }
 
-export default App;
+export default App
+
