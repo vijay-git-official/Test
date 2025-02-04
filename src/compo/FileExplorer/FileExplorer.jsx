@@ -21,7 +21,7 @@ const FileExplorer = () => {
 
     const handleCreateItem = () => {
         if (!state.selectedItem || state.selectedItem.type !== "folder") {
-            setError("Please select a folder to create a new item");
+            setError("Please select folder to create a new item");
             return;
         }
 
